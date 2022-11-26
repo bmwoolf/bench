@@ -18,6 +18,12 @@ evm-bench makes it easy to compare EVM performance in a scalable, standardized, 
 | ten-thousand-hashes     | 2.2ms  | 3.8ms  | 4ms   | 11ms    | 12.4ms  | 324.2ms     | 1.952s         | 2.5264s    |
 
 To reproduce these results, check out [usage with the evm-bench suite below](#with-the-evm-bench-suite).
+To start the process, of debugging, run this order:
+
+```
+cd src
+rustc ./main.rs
+```
 
 ## Technical Overview
 
@@ -29,6 +35,8 @@ In evm-bench there are [benchmarks](/benchmarks) and [runners](/runners):
 The evm-bench framework can run any benchmark on any runner. The links above dive deeper into how to build new benchmarks or runners.
 
 ## Usage
+
+Testing the max compute and storage of a blockchain network.
 
 ### With the evm-bench suite
 
