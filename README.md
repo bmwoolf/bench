@@ -51,3 +51,12 @@ See the CLI arguments for evm-bench to figure out how to set it up! Alternativel
 ## Development
 
 Do it. Reach out to me if you wanna lend a hand but don't know where to start!
+
+## Commits
+
+- ♻️ refactor
+- 📝docs
+- ✨feat
+- 👷‍♂️edit
+- 🎨cleanup
+- ⚡️gas optimize
