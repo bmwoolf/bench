@@ -23,6 +23,7 @@ To start the process, of debugging, run this order:
 ```
 cd src
 rustc ./main.rs
+./main
 ```
 
 ## Technical Overview
